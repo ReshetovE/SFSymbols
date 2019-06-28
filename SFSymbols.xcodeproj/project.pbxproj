@@ -9,23 +9,29 @@
 /* Begin PBXBuildFile section */
 		74565B1D22C4C47600FCF63B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74565B1C22C4C47600FCF63B /* AppDelegate.swift */; };
 		74565B1F22C4C47600FCF63B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74565B1E22C4C47600FCF63B /* SceneDelegate.swift */; };
-		74565B2122C4C47600FCF63B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74565B2022C4C47600FCF63B /* ContentView.swift */; };
 		74565B2322C4C47900FCF63B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74565B2222C4C47900FCF63B /* Assets.xcassets */; };
 		74565B2622C4C47900FCF63B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74565B2522C4C47900FCF63B /* Preview Assets.xcassets */; };
 		74565B2922C4C47900FCF63B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74565B2722C4C47900FCF63B /* LaunchScreen.storyboard */; };
 		74565B3122C4C8D600FCF63B /* Symbols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74565B3022C4C8D600FCF63B /* Symbols.swift */; };
+		74565B3522C4DDDA00FCF63B /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74565B3422C4DDDA00FCF63B /* MainView.swift */; };
+		74565B3722C4DE5E00FCF63B /* SymbolDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74565B3622C4DE5E00FCF63B /* SymbolDetailView.swift */; };
+		74565B3922C5D9F300FCF63B /* SearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74565B3822C5D9F300FCF63B /* SearchBarView.swift */; };
+		74565B3B22C5DA2700FCF63B /* KeyboardHideView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74565B3A22C5DA2700FCF63B /* KeyboardHideView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		74565B1922C4C47600FCF63B /* SFSymbols.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SFSymbols.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		74565B1C22C4C47600FCF63B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		74565B1E22C4C47600FCF63B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		74565B2022C4C47600FCF63B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		74565B2222C4C47900FCF63B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		74565B2522C4C47900FCF63B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		74565B2822C4C47900FCF63B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		74565B2A22C4C47900FCF63B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		74565B3022C4C8D600FCF63B /* Symbols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Symbols.swift; sourceTree = "<group>"; };
+		74565B3422C4DDDA00FCF63B /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		74565B3622C4DE5E00FCF63B /* SymbolDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymbolDetailView.swift; sourceTree = "<group>"; };
+		74565B3822C5D9F300FCF63B /* SearchBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarView.swift; sourceTree = "<group>"; };
+		74565B3A22C5DA2700FCF63B /* KeyboardHideView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardHideView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,14 +64,15 @@
 		74565B1B22C4C47600FCF63B /* SFSymbols */ = {
 			isa = PBXGroup;
 			children = (
+				74565B3C22C5DA3200FCF63B /* Extensions */,
+				74565B3322C4DD4500FCF63B /* Models */,
+				74565B3222C4DD3A00FCF63B /* Views */,
 				74565B1C22C4C47600FCF63B /* AppDelegate.swift */,
 				74565B1E22C4C47600FCF63B /* SceneDelegate.swift */,
-				74565B2022C4C47600FCF63B /* ContentView.swift */,
 				74565B2222C4C47900FCF63B /* Assets.xcassets */,
 				74565B2722C4C47900FCF63B /* LaunchScreen.storyboard */,
 				74565B2A22C4C47900FCF63B /* Info.plist */,
 				74565B2422C4C47900FCF63B /* Preview Content */,
-				74565B3022C4C8D600FCF63B /* Symbols.swift */,
 			);
 			path = SFSymbols;
 			sourceTree = "<group>";
@@ -76,6 +83,32 @@
 				74565B2522C4C47900FCF63B /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		74565B3222C4DD3A00FCF63B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				74565B3422C4DDDA00FCF63B /* MainView.swift */,
+				74565B3622C4DE5E00FCF63B /* SymbolDetailView.swift */,
+				74565B3822C5D9F300FCF63B /* SearchBarView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		74565B3322C4DD4500FCF63B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				74565B3022C4C8D600FCF63B /* Symbols.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		74565B3C22C5DA3200FCF63B /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				74565B3A22C5DA2700FCF63B /* KeyboardHideView.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,9 +183,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				74565B1D22C4C47600FCF63B /* AppDelegate.swift in Sources */,
+				74565B3B22C5DA2700FCF63B /* KeyboardHideView.swift in Sources */,
+				74565B3722C4DE5E00FCF63B /* SymbolDetailView.swift in Sources */,
 				74565B3122C4C8D600FCF63B /* Symbols.swift in Sources */,
 				74565B1F22C4C47600FCF63B /* SceneDelegate.swift in Sources */,
-				74565B2122C4C47600FCF63B /* ContentView.swift in Sources */,
+				74565B3922C5D9F300FCF63B /* SearchBarView.swift in Sources */,
+				74565B3522C4DDDA00FCF63B /* MainView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
