@@ -1,4 +1,4 @@
 # SFSymbols
 
-[![mainScreen](https://github.com/ReshetovE/SFSymbols/blob/master/images/MainScreen.PNG)]
-[![detailScreen](https://github.com/ReshetovE/SFSymbols/blob/master/images/DetailScreen.PNG)]
+![mainScreen](https://github.com/ReshetovE/SFSymbols/blob/master/Images/MainScreen.png)
+![detailScreen](https://github.com/ReshetovE/SFSymbols/blob/master/Images/DetailScreen.png)
